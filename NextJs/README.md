@@ -1,6 +1,7 @@
 # NextJS - 13
 The documentation is based on NextJS-13 `(/app)`, which includes folder routing.
 
+## Table of contents: 
 - [NextJS - 13](#nextjs---13)
   - [Predefined file types 📃](#predefined-file-types-)
   - [Folder Structure (Backend) 📁](#folder-structure-backend-)
@@ -38,13 +39,11 @@ The documentation is based on NextJS-13 `(/app)`, which includes folder routing.
 
 | Name | Usecase |
 |:---: | :---: |
-| api | Contains API Handlers |
 | folder/page.tsx | Routable |
-| **_**folder | Non-Routable & Private Folder |
-| **(**folder**)** | Avoid folder name in path eg: `/login` instead of `auth/login` |
-| **[**folder**]** | Dynamic Routing eg: `products/1`, `products/2` |
-| **[**___slug**]** | Nested Dynamic Routing eg: `docs/1/h2`, `docs/2/h2/p` |
-
+| _folder | Non-Routable & Private Folder |
+| (folder) | Avoid folder name in path eg: `/login` instead of `auth/login` |
+| [folder] | Dynamic Routing eg: `products/1`, `products/2` |
+| [___slug] | Nested Dynamic Routing eg: `docs/1/h2`, `docs/2/h2/p` |
 
 
 ## Caching 🔰
